@@ -6,26 +6,14 @@ Yes, this is just docker-compose version from [Jenkins Documentation](https://ww
 
 1. Install [Docker](https://docs.docker.com/engine/install/)
 
-2. Create a bridge network
-
-   ```bash
-   docker network create jenkins
-   ```
-
-3. Build image for jenkins (you can change to another name, remember to change on `docker-compose.yml` too)
-
-   ```bash
-   docker build -t lnkphm-jenkins:lts-jdk17
-   ```
-
-4. Run `docker-compose.yml`
+2. Run `docker-compose.yml`
 
    ```bash
    docker compose up -d
    ```
 
-5. Go to `http://localhost:8080` to continue setup
-6. Enjoy
+3. Go to `http://localhost:8080` to continue setup
+4. Enjoy
 
 ## Usage
 
